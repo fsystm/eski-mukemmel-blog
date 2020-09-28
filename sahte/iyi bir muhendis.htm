@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>İyi bir mühendisin 10 özelliği</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="" class="logo">Logo</a></li>
+            <li><a style="float:right" class="bar" href="index.htm">Anasayfa</a st></li>
+            <li><a class="bar2" href="#">Hakkında</a></li>
+            <li><a class="bar2" href="#">Öneri</a></li>
+         </ul>
+     
+     </nav>
+     <article class="falan">
+        <h1>İyi bir mühendisin 10 özelliği</h1>
+        <p>Uber’de engineering manager (mühendis müdürü) olarak çalışan Dan Heller’ın kendi blogunda 
+        ‘Ten Principles for Growth as an Engineer’ başlığıyla paylaştığı yazıyı çok etkili buldum. 
+        Kendim defalarca okudum, sizlerinde bundan faydalanmasını istiyorum.
+        Eğer ingilizcenin yeteri seviyedeyse
+        <a class="orijinal" target="_blank" href="https://medium.com/@daniel.heller/ten-principles-for-growth-69015e08c35b">orjinalini</a>  
+        okumanızı tavsiye ediyorum.
+        </p>
+        <p>
+            Yazıyı beğendiğiniz ve faydalı bulduğunuz takdirde takım arkadaşlarınızla, 
+            sizinle çalışan mühendislerle paylaşmanızı öneririm. Bir mühendis çoğu zaman 
+            takımının ortalamasından daha ileriye gidemiyor. Etrafınızdakilerin gelişimine katkı
+            sağlamak uzun vadede sizi de ileriye götürecek, bunu unutmamak lazım. Son olarak yazının
+            aslına sadık kalmaya çalıştım, 
+            fakat bazı noktalarda kelime seçiminde insiyatif kullandım. İyi okumalar.
+        </p>
+        <p>
+            *** Çeviri:
+        </p>
+        <p>
+            Bir senedir müdürlük yaptığım mühendis geçen ay başka bir 
+            takıma geçiş yaptı. Birebir toplantılarımızdan birinde ona 
+            son zamanlarda projesini iyi yönettiğini söyledim. O da bana 
+            kendi kendini yönetme konusunda bir aydınlanma yaşadığını, çalıştığı
+            projelerde başarıya ulaşmak için yaptığı işin her safhasını sahiplenmeye
+            karar verdiğini, yalnızca kod yazmakla yetinmemeye başladığını söyledi.
+            Bir yandan onun bu bakış açısından etkilendim, onun adına sevindim, bir 
+            yandan da kendime kızdım — uzun süredir genç mühendislerin yazılım işini
+            öğrenebilmeleri için sahiplenmenin (ownership) en önemli şey olduğunu 
+            düşünüyorum fakat altımda çalışan mühendisin bu gerçeği 
+            kendine kendine, zor yoldan öğrenmesine sebep oldum.
+        </p>
+        
+        <p>
+            <img class="hacı" src="https://miro.medium.com/max/4000/1*S4golQzBEiv42TvhQSig1w.jpeg" alt="">
+        </p>
+        <p>
+            Bu olay sonrasında yeni başlayan mühendislerin amatörlükten profesyonelliğe 
+            geçmesinde büyük rol oynayan hususları bir yazıyla paylaşmaya karar verdim;
+            bug’ları fix etmekten başlayıp kıdemli mühendis olarak
+            büyük projelere liderlik etmeye giden yolculukta nelere dikkat etmek lazım?
+        </p>
+        <p>
+            Az sonra bahsedeceğim becerilerin öğretilebileceğine inanıyorum, 
+            fakat ben ne yazık ki silikon vadisinde geçirdiğim on küsur senede 
+            zor yoldan öğrendim. Geçtiğimiz senelerde biraz yol katettim; Cupertino’da 
+            bulunan iyi bir firmada kernel üzerinde altı sene çalıştım, bildiğim herşeyi 
+            bir kenarı koyup distributed systems konusuna yöneldim, sonradan unicorn 
+            (1 milyar dolar üzeri değerlendirmeye sahip) bir şirkette bir sene geçirdim, 
+            daha sonra bu şirket AppDynamics tarafından satın alındı, ilerleyen zamanda müdür oldum
+            , kendimi Uber’de 20 üzerinde kişiyi yönetirken buldum ve nihayet programcı olarak
+            köklerime geri döndüm. Umuyorum bu liste benim hatalarımdan ders almanız konusunda size faydalı olacaktır. 
+            Birinin bu listeyi ben 22 yaşındayken bana göndermesini çok isterdim.
+        </p>
+        <p>
+            <ol>
+                <li>
+                    <b>Yapılanların firmaya katkısını sorgula:</b>  CEO gibi düşün. Senin ve 
+                        takımının yaptığı işin şirkete ne değer kattığını iyice anlamaya çalış. İşin kalitesi, 
+                        ürünün özellik bakımından üstünlüğü gibi konularda sorumluluk al. Mühendis olarak 
+                        işin sadece kod yazmak değil; amacın iyi kararlar alıp firmanın başarılı olmasını sağlamak. 
+                        Bunu yapabilmek için de neyin gerçekten önemli olduğunu kavraman gerekiyor.
+                </li>
+                <p>
+                    <li>
+                        <b>Kendini debloke etmeyi öğren:</b> Hiçbir ama hiçbir zaman
+                        dış etkenlerden ötürü bir görevde tıkanıp kalmayı kabul 
+                        etme. Çalıştığın kişileri ikna ederek, konuyu senden üst
+                        seviyedekilere taşıyarak ve/veya teknik açıdan yaratıcı
+                        çözümler bularak ilerlemeye devam et. Tekrar söylüyorum, 
+                        senin işin sadece kod yazıp onunda dışında olan herşeyin 
+                        sihirli bir şekilde tamamlanacağını farzedip beklemek değil; 
+                        amacın enerji harcadığın eforlar ile bir değer üretmek, çalıştığın firmayı ileriye götürmek.
+                    </li>
+                </p>
+                <p>
+                    <li>
+                        <b>Girişken ol:</b>  Yazılım dünyasının en büyük yanılgılardan biri de şu ki 
+                        çalışanlar kendileri dışında birilerinin işleri üstlendiğini ve herşeyi
+                        halledeceklerini düşünüyor. Kendi takımının ve şirketinin misyonunu üstlen.
+                        Sana direktif verilmesini bekleme; ne yapılması gerektiği konusuna kafa yor,
+                        ya git yap ya da yapılması gerektiğini aktif bir şekilde savun/anlat. 
+                        Senin müdürlerin ve onun üstündeki kişiler senin, yani mühendislerin yaratıcılığına ve zekasına güveniyor,
+                        herşeyi kendi başlarına halledemeyeceklerinin farkındalar.
+                    </li>
+                </p>
+                <p>
+                    <li>
+                        <b>Yazma kabiliyetini geliştir:</b>  Teknik yazma becerisi diğer çalışan ve
+                        takımlarla iş birliğini kolaylaştırıyor ve etrafındakileri ikna etme, bilgilendirme
+                        ve öğretme konusunda mühendislere çok fayda sağlıyor. Bir döküman yazarken okuyucu 
+                        kitlesinin kim olduğunu ve neleri bildiklerini aklında tut. Temiz ve açık bir şekilde yaz, 
+                        ve yazının en başına bir iki cümleyle konuyu özetleyen bir paragraf yerleştir.
+                    </li>
+                </p>
+                <p>
+                    <li>
+                        <b>Kendi projeni kendin yönet:</b>  Çalıştığın projede bağımlılıkları 
+                        iyice anla. Her önemli parçalayla ilgilenen bir kişi bulunduğuna emin
+                        ol. Düzenli aralıklarla proje planlarını ve güncellemelerini proje 
+                        paydaşlarına (stakeholders) aktar, onları gidişattan haberdar et. 
+                        Toplantılara liderlik ederek kendini şimdiden buna alıştır! Bu ileride çok daha büyük projeleri 
+                        yönettiğinde ve lider pozisyonuna geldiğinde sana çok lazım olacak.
+                    </li>
+                </p>
+                <p>
+                    <li>
+                        <b>Kendini eğit:</b>  Yazılım sanatında uzmanlaş. 
+                        Kariyer kendini düzenli bir şekilde geliştirmeye 
+                        devam ettiğin uzun soluklu bir yolculuk. Fakat bu 
+                        yolculukta kimse işini gücünü bırakıp sen birşeyler 
+                        öğreniyor musun diye dertlenmeyecek. Eğitimini sahiplen,
+                        öğrenmeyi günün bir parçası haline getir (günde 5 dakika bile olsa);
+                        mail gruplarına üye ol, okumaya değer makaleler ve kitaplar bul, üzerinde
+                        çalıştığın teknolojilerin dökümantasyonunu baştan sona oku, yala yut.
+                        Devamlılık burada en önemli husus; tüm kariyer boyunca öğrenmeyi tetikleyecek alışkanlıklar edin.
+                    </li>
+                </p>
+                <p>
+                    <li>
+                        <b>Kullandığın araçlarda uzmanlaş:</b>  Kullandığın editör, debugger, compiler,
+                        IDE, veritabanı, network araçları, Unix komutlarında uzmanlaşman hem kendini
+                        yeterli hissetmeni sağlayacak hem de ürün geliştirme hızının artmasında çok 
+                        büyük bir rol oynacak. Yeni bir teknoloji ya da komuta/konsepte denk geldiğinde
+                        ihtiyacından daha fazlasını öğrenecek şekilde üzerine kafa yor; bunların tekrar
+                        tekrar işine yaradığını göreceksin, sana vakit kazandıracak.
+                    </li>
+                </p>
+                <p>
+                    <li>
+                        <b>İletişimi açık tut:</b>  Düzenli, iyi bir şekilde organize edilmiş toplantılar ya 
+                        da diğer haberleşme kanalları beraber çalıştığın kişiler üzerinde sana karşı iyi niyet
+                        ve güven hislerinin oluşmasını sağlayacak. Bildiklerini paylaşmak bulunduğun ortamda 
+                        güçlü bir öğrenme ve samimiyet atmosferi yaratıyor. Bildiklerini sürekli paylaş. Düzenli
+                        aralıklarla projeler, hedefler, katedilen mesafe ve engeller hakkında konuşabileceğiniz 
+                        ortamların oluşmasını sağla. Bildiğin konularda çık, konuşma yap. 
+                        Katıldığın toplantılarda yapıcı olduğun sürece konuşmaktan çekinme.
+                    </li>
+                </p>
+                <p>
+                    <li>
+                        <b>İşbirliği fırsatlarını yokla:</b>  Bulunduğun organizasyonda
+                        tanınırlığını arttırmak için farklı takımlarla işbirliği yapmak 
+                        ve birbirinizin tecrübe ve bilgisinden yararlanmak çok iyi bir yöntem.
+                        Ayrıca bu, ihtiyacın olduğunda elinin güçlü olmasını sağlayacak. 
+                        Mühendis olarak bu sanatta uzmanlaşman yazdığın kodun ötesinde bir 
+                        etkiye sahip olmanı gerektiriyor. Ve kariyerde ilerlemek de, bir noktaya kadar,
+                        bulunduğun ortamda bir kimliğinin olmasını gerektiriyor. Hem iyi bir mühendis 
+                        olabilmek hem de kariyerinde ilerlemek için
+                        takımlar-arası projeler ve efektif işbirlikleri çok kritik.
+                    </li>
+                </p>
+                <p>
+                    <li class="enson">
+                        <b>Profesyonel davran, güvenilir ol:</b>  Kendini işinde profesyonel biri
+                        olarak düşün ve o şekilde davran. Toplantılara hazırlıklı bir şekilde gel, 
+                        gereken önemi ver. Bitireceğim dediğin şeyi bitir, eğer işler kötü giderse 
+                        (ki gidecek), aktif bir şekilde bunu karşı tarafa ilet. Sakinliğini her an
+                        korumaya gayret et. İtirazlarını saygılı bir şekilde ifade et. Beraber 
+                        çalıştığın kişilere saygı göster ve onları takdir et, kıymetlerini bil. 
+                        Şikayet edip durmamaya çalış; etrafındaki kişilerini moralini yükselt, azaltma.
+                        Öğreneceksin ki herkes işini profesyonel
+                        yapan kişiyi takdir ediyor, zaten olması gereken de bu.
+                    </li>
+                </p>
+            </ol>
+        </p>
+        
+     </article>
+    
+     <footer>
+        DEVAMI GELECEKTİR SABREDİN UZUN İŞ
+     </footer>
+    
+</body>
+</html>
